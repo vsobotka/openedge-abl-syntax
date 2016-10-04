@@ -1,5 +1,19 @@
 # OpenEdge ABL language definition
 
-This version is only temporary.
+## Things that do NOT work
+- Abbreviations are not fully supported
+    - only the shortest and longest form of the keyword is now supported
+    - e.g. `char` and `character` work, but `charac` does not
+- Grammar scopes are not supported right now, but will be; see [Priorities](#priorities)
 
-It is a work in progress. Will be completely rewritten in near future to maximize the utilization of tmLanguage possibilities.
+## Priorities
+- My first priority is fixing issues
+- My second priority is adding missing keywords, support for abbreviations and other
+- When those two points are done, I plan to completely rewrite the grammar to support scopes and other features of `TextMate` grammar
+
+## What you should know about me
+- I do not use OOP aspects of ABL, so there may be some gaps
+- This is my first `TextMate` language grammar
+- This is my first opensource project
+
+That being said, I am super enthusiasthic helping the OpenEdge community. Any suggestions, help, feedback, advice, and critic is appreciated.
