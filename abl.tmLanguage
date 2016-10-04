@@ -84,7 +84,7 @@
             <key>contentName</key>
             <string>comment</string>
             <key>end</key>
-            <string>\*/(?![^/]*?\*/)</string>
+            <string>\*/</string>
             <key>name</key>
             <string>comment.block.source.abl</string>
             <key>patterns</key>
