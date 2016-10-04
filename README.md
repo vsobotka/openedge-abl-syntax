@@ -1,4 +1,5 @@
 # OpenEdge ABL language definition
+This grammar is in its own repository because I plan on using it for Sublime Text syntax plugin in near future.
 
 ## Things that do NOT work
 - Grammar scopes are not supported right now, but will be; see [Priorities](#priorities)
