@@ -17,23 +17,34 @@
             <string>#multilinecomment</string>
         </dict>
         <dict>
-            <key>match</key>
-            <string>('(?:'|.)*?')</string>
+            <key>begin</key>
+            <string>'</string>
+            <key>end</key>
+            <string>'</string>
             <key>name</key>
-            <string>string.single.source.abl</string>
+            <string>string.single.complex.abl</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>match</key>
+                    <string>\\.</string>
+                    <key>name</key>
+                    <string>constant.character.escape.abl</string>
+                </dict>
+            </array>
         </dict>
         <dict>
             <key>begin</key>
-            <string>[^=]\"[^\n\r}]</string>
+            <string>"</string>
             <key>end</key>
-            <string>\"(?!\")</string>
+            <string>"</string>
             <key>name</key>
             <string>string.double.complex.abl</string>
             <key>patterns</key>
             <array>
                 <dict>
                     <key>match</key>
-                    <string>(~(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)|\"\")</string>
+                    <string>\\.</string>
                     <key>name</key>
                     <string>constant.character.escape.abl</string>
                 </dict>
