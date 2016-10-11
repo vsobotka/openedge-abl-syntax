@@ -31,6 +31,12 @@
                     <key>name</key>
                     <string>constant.character.escape.abl</string>
                 </dict>
+                <dict>
+                    <key>match</key>
+                    <string>~.</string>
+                    <key>name</key>
+                    <string>constant.character.escape.abl</string>
+                </dict>
             </array>
         </dict>
         <dict>
@@ -45,6 +51,12 @@
                 <dict>
                     <key>match</key>
                     <string>\\.</string>
+                    <key>name</key>
+                    <string>constant.character.escape.abl</string>
+                </dict>
+                <dict>
+                    <key>match</key>
+                    <string>~.</string>
                     <key>name</key>
                     <string>constant.character.escape.abl</string>
                 </dict>
