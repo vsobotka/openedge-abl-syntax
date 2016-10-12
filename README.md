@@ -1,4 +1,6 @@
 # OpenEdge ABL language definition
+Visual Studio Code extension: https://github.com/ZaphyrVonGenevese/vscode-abl
+
 This grammar is in its own repository because I plan on using it for Sublime Text syntax plugin in near future.
 
 ## Things that do NOT work
