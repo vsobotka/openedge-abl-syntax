@@ -82,7 +82,7 @@
         </dict>
         <dict>
 	    	<key>match</key>
-    		<string>(?i)(\&(\w|-)*)|({\&(\w|-)*})|(&analyze-suspend|&analyze-resume|&scoped-define|&global-define|&window-system|&text-height|&line-number|&batch-mode|&file-name|&undefine|&sequence|&message|defined|&elseif|&scoped|&global|&opsys|&endif|&else|&scop|&then|&glob|&if)</string>
+    		<string>(?i)(\&#38;(\w|-)*)|({\&#38;(\w|-)*})|(&#38;analyze-suspend|&#38;analyze-resume|&#38;scoped-define|&#38;global-define|&#38;window-system|&#38;text-height|&#38;line-number|&#38;batch-mode|&#38;file-name|&#38;undefine|&#38;sequence|&#38;message|defined|&#38;elseif|&#38;scoped|&#38;global|&#38;opsys|&#38;endif|&#38;else|&#38;scop|&#38;then|&#38;glob|&#38;if)</string>
     		<key>name</key>
 			<string>storage.type.function.abl</string>
 		</dict>
@@ -98,7 +98,7 @@
         <key>multilinecomment</key>
         <dict>
             <key>begin</key>
-            <string>(?<!=)\/\*</string>
+            <string>(?&#60;!=)\/\*</string>
             <key>contentName</key>
             <string>comment</string>
             <key>end</key>
