@@ -7,6 +7,7 @@
         <string>p</string>
         <string>w</string>
         <string>i</string>
+        <string>cls</string>
     </array>
     <key>name</key>
     <string>OpenEdge ABL</string>
