@@ -19,6 +19,14 @@
         </dict>
         <dict>
             <key>begin</key>
+            <string>\s\/\/</string>
+            <key>end</key>
+            <string>\n</string>
+            <key>name</key>
+            <string>comment.block.source.abl</string>
+        </dict>	    
+        <dict>
+            <key>begin</key>
             <string>'</string>
             <key>end</key>
             <string>'</string>
